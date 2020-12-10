@@ -1,13 +1,13 @@
 package com.robertnevitt.plangenerator.calculation;
 
 public abstract class Loan {
-    protected float principal;
+    protected float originalPrincipal;
     protected final float nominalInterestRate;
     protected final Period interestRatePeriod;
     protected final Period compoundingPeriod;
 
-    protected Loan(float principle, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod) {
-        this.principal = principle;
+    protected Loan(float principal, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod) {
+        this.originalPrincipal = principal;
         this.nominalInterestRate = nominalInterestRate;
         this.interestRatePeriod = interestRatePeriod;
         this.compoundingPeriod = compoundingPeriod;

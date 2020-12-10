@@ -23,7 +23,7 @@ public class SimpleLoan extends Loan {
     
     protected float calculateAnnuity() {
         float ratePerPeriod = calculateRatePerPeriod();
-        return (ratePerPeriod*this.principal)/(1-(float)Math.pow(1+ratePerPeriod,(0f-this.duration)));
+        return (ratePerPeriod*this.originalPrincipal)/(1-(float)Math.pow(1+ratePerPeriod,(0f-this.duration)));
     }
     
     protected float calculateRatePerPeriod() {
@@ -54,13 +54,13 @@ public class SimpleLoan extends Loan {
         System.out.println(this.toString());
         ArrayList<SimpleLoanPayment> payments = new ArrayList<SimpleLoanPayment>();
         float annuity = calculateAnnuity();
-        float interestToBePaid = calculatInterestPayment(this, this.principal);
-        annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestToBePaid, this.principal);
+        float interestToBePaid = calculatInterestPayment(this, this.originalPrincipal);
+        annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestToBePaid, this.originalPrincipal);
         float principalToBePaid = annuity - interestToBePaid;
-        float remainingOutstandingPrincipal =  this.principal - principalToBePaid;
+        float remainingOutstandingPrincipal =  this.originalPrincipal - principalToBePaid;
 
-        SimpleLoanPayment payment = SimpleLoanPayment.getLoanPayment(annuity, LocalDateTime.now(), this.principal, 
-                calculatInterestPayment(this, this.principal), principalToBePaid, remainingOutstandingPrincipal);
+        SimpleLoanPayment payment = SimpleLoanPayment.getLoanPayment(annuity, LocalDateTime.now(), this.originalPrincipal, 
+                calculatInterestPayment(this, this.originalPrincipal), principalToBePaid, remainingOutstandingPrincipal);
         payments.add(payment);
    
         while (payment.remainingOustandingPrincipal > 0.01f) {
@@ -74,7 +74,7 @@ public class SimpleLoan extends Loan {
     
     @Override
     public String toString() {
-        return ("SimpleLoan principal="+principal+", nominalInterestRate="+nominalInterestRate
+        return ("SimpleLoan principal="+originalPrincipal+", nominalInterestRate="+nominalInterestRate
                 +", interestRatePeriod="+interestRatePeriod
                 +", compoundingPeriod="+compoundingPeriod
                 +", duration="+duration+", startDate="+startDate);
