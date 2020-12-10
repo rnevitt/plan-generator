@@ -3,52 +3,83 @@ package com.robertnevitt.plangenerator.calculation;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
-import com.robertnevitt.plangenerator.dto.BorrowerPayment;
-
 public class SimpleLoan extends Loan {
 
     private final int duration;
     private final LocalDateTime startDate;
     
-    private SimpleLoan(float principal, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod, int duration, LocalDateTime startDate) {
+    private SimpleLoan(float principal, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod,
+            int duration, LocalDateTime startDate) {
         super(principal, nominalInterestRate, interestRatePeriod, compoundingPeriod);
         this.startDate = startDate;
         this.duration = duration;
     }
     
-    public static SimpleLoan getInstance(float principle, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod, int duration, LocalDateTime startDate) {
-        return new SimpleLoan(principle, nominalInterestRate, interestRatePeriod, compoundingPeriod, duration, startDate);      
-    }
-
-    @Override
-    protected float calculatePaymentAppliedToPrinciple() {
-        // TODO Auto-generated method stub
-        return 0;
+    public static SimpleLoan getInstance(float principle, float nominalInterestRate, Period interestRatePeriod,
+            Period compoundingPeriod, int duration, LocalDateTime startDate) {
+        return new SimpleLoan(principle, nominalInterestRate, interestRatePeriod,
+                compoundingPeriod, duration, startDate);      
     }
     
     protected float calculateAnnuity() {
         float ratePerPeriod = calculateRatePerPeriod();
-        return (ratePerPeriod*this.principle)/(1-(float)Math.pow(1+ratePerPeriod,this.duration));
+        return (ratePerPeriod*this.principal)/(1-(float)Math.pow(1+ratePerPeriod,(0f-this.duration)));
     }
     
     protected float calculateRatePerPeriod() {
-        return (this.interestRatePeriod.numberOfDays/this.compoundingPeriod.numberOfDays);
+        return ((this.nominalInterestRate/100f)/(this.interestRatePeriod.numberOfDays/this.compoundingPeriod.numberOfDays));
     }
- 
-    protected SimpleLoanPayment generateBorrowerPayment(float annuity, SimpleLoanPayment payment) {
+    
+    protected float checkAndAdjustAnnuityForOverpayment(float annuity, float interestToBePaid, float remainingPrincipal) {
+        if (annuity > (remainingPrincipal + interestToBePaid)) {
+            return remainingPrincipal + interestToBePaid;
+        } else {
+            return annuity;
+        }
+    }
+    
+    protected SimpleLoanPayment generateBorrowerPayment(float annuity, SimpleLoanPayment priorPayment) {
+        float interestPaid = calculatInterestPayment(this, priorPayment.remainingOustandingPrincipal);
+        annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestPaid, priorPayment.remainingOustandingPrincipal);
+        float principalPaid = annuity - interestPaid;
+        LocalDateTime paymentDate = LocalDateTime.now();
+        float originalPrincipal = priorPayment.remainingOustandingPrincipal;
+        float remainingPrincipalAfterPayment = originalPrincipal - principalPaid;
         
-        return SimpleLoanPayment.getLoanPayment(annuity);
+        return SimpleLoanPayment.getLoanPayment(annuity, paymentDate, originalPrincipal, 
+                interestPaid, principalPaid, remainingPrincipalAfterPayment);
     }
     
     public ArrayList<SimpleLoanPayment> generateAllBorrowerPayments() {
+        System.out.println(this.toString());
+        ArrayList<SimpleLoanPayment> payments = new ArrayList<SimpleLoanPayment>();
         float annuity = calculateAnnuity();
-        SimpleLoanPayment payment = generateBorrowerPayment(annuity);
-        while (payment.initialOutstandingPrincipal > 0) {
-            if (payment.initialOutstandingPrincipal > annuity) {
-                
-            }
+        float interestToBePaid = calculatInterestPayment(this, this.principal);
+        annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestToBePaid, this.principal);
+        float principalToBePaid = annuity - interestToBePaid;
+        float remainingOutstandingPrincipal =  this.principal - principalToBePaid;
+
+        SimpleLoanPayment payment = SimpleLoanPayment.getLoanPayment(annuity, LocalDateTime.now(), this.principal, 
+                calculatInterestPayment(this, this.principal), principalToBePaid, remainingOutstandingPrincipal);
+        payments.add(payment);
+   
+        while (payment.remainingOustandingPrincipal > 0.01f) {
+            payment = generateBorrowerPayment(annuity, payment);
+            payments.add(payment);
+            System.out.println(payment.toString());
         }
+              
+        return payments;
     }
+    
+    @Override
+    public String toString() {
+        return ("SimpleLoan principal="+principal+", nominalInterestRate="+nominalInterestRate
+                +", interestRatePeriod="+interestRatePeriod
+                +", compoundingPeriod="+compoundingPeriod
+                +", duration="+duration+", startDate="+startDate);
+    }
+    
     
     
 

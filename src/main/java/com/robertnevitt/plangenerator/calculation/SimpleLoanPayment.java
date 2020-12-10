@@ -6,26 +6,33 @@ public class SimpleLoanPayment {
     public final float borrowerPaymentAmount;
     public final LocalDateTime date;
     public final float initialOutstandingPrincipal;
-    public final float interest;
-    public final float principalOfLoanBeforePayment;
+    public final float interestPaid;
+    public final float principalPaid;
     public final float remainingOustandingPrincipal;
     
     private SimpleLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
-            float initialOutstandingPrincipal, float interest, float principalOfLoanBeforePayment,
+            float initialOutstandingPrincipal, float interestPaid, float principalPaid,
             float remainingOustandingPrincipal) {
         this.borrowerPaymentAmount = borrowerPaymentAmount;
         this.date = date;
         this.initialOutstandingPrincipal = initialOutstandingPrincipal;
-        this.interest = interest;
-        this.principalOfLoanBeforePayment = principalOfLoanBeforePayment;
+        this.interestPaid = interestPaid;
+        this.principalPaid = principalPaid;
         this.remainingOustandingPrincipal = remainingOustandingPrincipal;
     }
     
-    public SimpleLoanPayment getLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
-            float initialOutstandingPrincipal,float interest, float principalOfLoanBeforePayment,
+    public static SimpleLoanPayment getLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
+            float initialOutstandingPrincipal,float interestPaid, float principalPaid,
             float remainingOustandingPrincipal) {
-        return new SimpleLoanPayment( borrowerPaymentAmount, date, initialOutstandingPrincipal, interest,
-                principalOfLoanBeforePayment, remainingOustandingPrincipal);
+        return new SimpleLoanPayment( borrowerPaymentAmount, date, initialOutstandingPrincipal, interestPaid,
+                principalPaid, remainingOustandingPrincipal);
     }
     
+    @Override
+    public String toString() {
+        return ("SimpleLoanPayment borrowerPaymentAmount="+borrowerPaymentAmount+", date="+date
+                +", initialOutstandingPrincipal="+initialOutstandingPrincipal+", interestPaid="
+                +interestPaid+", principalPaid="+principalPaid+", remainingOutstandingPrincipal="
+                +remainingOustandingPrincipal);
+    }
 }
