@@ -5,27 +5,27 @@ import java.time.LocalDateTime;
 public class SimpleLoanPayment {
     public final float borrowerPaymentAmount;
     public final LocalDateTime date;
-    public final float initialOutstandingPrinciple;
+    public final float initialOutstandingPrincipal;
     public final float interest;
-    public final float principleOfLoanBeforePayment;
-    public final float remainingOustandingPrinciple;
+    public final float PrincipalOfLoanBeforePayment;
+    public final float remainingOustandingPrincipal;
     
     private SimpleLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
-            float initialOutstandingPrinciple, float interest, float principleOfLoanBeforePayment,
-            float remainingOustandingPrinciple) {
+            float initialOutstandingPrincipal, float interest, float PrincipalOfLoanBeforePayment,
+            float remainingOustandingPrincipal) {
         this.borrowerPaymentAmount = borrowerPaymentAmount;
         this.date = date;
-        this.initialOutstandingPrinciple = initialOutstandingPrinciple;
+        this.initialOutstandingPrincipal = initialOutstandingPrincipal;
         this.interest = interest;
-        this.principleOfLoanBeforePayment = principleOfLoanBeforePayment;
-        this.remainingOustandingPrinciple = remainingOustandingPrinciple;
+        this.PrincipalOfLoanBeforePayment = PrincipalOfLoanBeforePayment;
+        this.remainingOustandingPrincipal = remainingOustandingPrincipal;
     }
     
     public SimpleLoanPayment getLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
-            float initialOutstandingPrinciple,float interest, float principleOfLoanBeforePayment,
-            float remainingOustandingPrinciple) {
-        return new SimpleLoanPayment( borrowerPaymentAmount, date, initialOutstandingPrinciple, interest,
-                principleOfLoanBeforePayment, remainingOustandingPrinciple);
+            float initialOutstandingPrincipal,float interest, float PrincipalOfLoanBeforePayment,
+            float remainingOustandingPrincipal) {
+        return new SimpleLoanPayment( borrowerPaymentAmount, date, initialOutstandingPrincipal, interest,
+                PrincipalOfLoanBeforePayment, remainingOustandingPrincipal);
     }
     
 }

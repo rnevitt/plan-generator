@@ -43,8 +43,8 @@ public class SimpleLoan extends Loan {
     public ArrayList<SimpleLoanPayment> generateAllBorrowerPayments() {
         float annuity = calculateAnnuity();
         SimpleLoanPayment payment = generateBorrowerPayment(annuity);
-        while (payment.initialOutstandingPrinciple > 0) {
-            if (payment.initialOutstandingPrinciple > annuity) {
+        while (payment.initialOutstandingPrincipal > 0) {
+            if (payment.initialOutstandingPrincipal > annuity) {
                 
             }
         }
