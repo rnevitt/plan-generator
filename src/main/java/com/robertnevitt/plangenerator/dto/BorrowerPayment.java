@@ -8,28 +8,28 @@ public class BorrowerPayment {
 
     private final String borrowerPaymentAmount;
     private final String date;
-    private final String initialOutstandingPrinciple;
+    private final String initialOutstandingPrincipal;
     private final String interest;
-    private final String principle;
-    private final String remainingOutstandingPrinciple;
+    private final String principal;
+    private final String remainingOutstandingPrincipal;
 
     public static class Builder {
         //required parameters
         private final String borrowerPaymentAmount;
         private final String date;
-        private final String initialOutstandingPrinciple;
+        private final String initialOutstandingPrincipal;
         private final String interest;
-        private final String principle;
-        private final String remainingOutstandingPrinciple;
+        private final String principal;
+        private final String remainingOutstandingPrincipal;
         
-        public Builder(String borrowerPaymentAmount, String date, String initialOutstandingPrinciple,
-                String interest, String principle, String remainingOutstandingPrinciple) {
+        public Builder(String borrowerPaymentAmount, String date, String initialOutstandingPrincipal,
+                String interest, String principal, String remainingOutstandingPrincipal) {
            this.borrowerPaymentAmount = borrowerPaymentAmount;
            this.date = date;
-           this.initialOutstandingPrinciple = initialOutstandingPrinciple;
+           this.initialOutstandingPrincipal = initialOutstandingPrincipal;
            this.interest = interest;
-           this.principle = principle;
-           this.remainingOutstandingPrinciple = remainingOutstandingPrinciple;
+           this.principal = principal;
+           this.remainingOutstandingPrincipal = remainingOutstandingPrincipal;
               
         }
         
@@ -42,10 +42,10 @@ public class BorrowerPayment {
     private BorrowerPayment(Builder builder) {
        borrowerPaymentAmount = builder.borrowerPaymentAmount;
        date = builder.date;
-       initialOutstandingPrinciple = builder.initialOutstandingPrinciple;
+       initialOutstandingPrincipal = builder.initialOutstandingPrincipal;
        interest = builder.interest;
-       principle = builder.principle;
-       remainingOutstandingPrinciple = builder.remainingOutstandingPrinciple;
+       principal = builder.principal;
+       remainingOutstandingPrincipal = builder.remainingOutstandingPrincipal;
     }
 
 }

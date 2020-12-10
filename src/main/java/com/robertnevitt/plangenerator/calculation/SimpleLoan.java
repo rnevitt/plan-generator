@@ -10,8 +10,8 @@ public class SimpleLoan extends Loan {
     private final int duration;
     private final LocalDateTime startDate;
     
-    private SimpleLoan(float principle, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod, int duration, LocalDateTime startDate) {
-        super(principle, nominalInterestRate, interestRatePeriod, compoundingPeriod);
+    private SimpleLoan(float principal, float nominalInterestRate, Period interestRatePeriod, Period compoundingPeriod, int duration, LocalDateTime startDate) {
+        super(principal, nominalInterestRate, interestRatePeriod, compoundingPeriod);
         this.startDate = startDate;
         this.duration = duration;
     }

@@ -7,25 +7,25 @@ public class SimpleLoanPayment {
     public final LocalDateTime date;
     public final float initialOutstandingPrincipal;
     public final float interest;
-    public final float PrincipalOfLoanBeforePayment;
+    public final float principalOfLoanBeforePayment;
     public final float remainingOustandingPrincipal;
     
     private SimpleLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
-            float initialOutstandingPrincipal, float interest, float PrincipalOfLoanBeforePayment,
+            float initialOutstandingPrincipal, float interest, float principalOfLoanBeforePayment,
             float remainingOustandingPrincipal) {
         this.borrowerPaymentAmount = borrowerPaymentAmount;
         this.date = date;
         this.initialOutstandingPrincipal = initialOutstandingPrincipal;
         this.interest = interest;
-        this.PrincipalOfLoanBeforePayment = PrincipalOfLoanBeforePayment;
+        this.principalOfLoanBeforePayment = principalOfLoanBeforePayment;
         this.remainingOustandingPrincipal = remainingOustandingPrincipal;
     }
     
     public SimpleLoanPayment getLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
-            float initialOutstandingPrincipal,float interest, float PrincipalOfLoanBeforePayment,
+            float initialOutstandingPrincipal,float interest, float principalOfLoanBeforePayment,
             float remainingOustandingPrincipal) {
         return new SimpleLoanPayment( borrowerPaymentAmount, date, initialOutstandingPrincipal, interest,
-                PrincipalOfLoanBeforePayment, remainingOustandingPrincipal);
+                principalOfLoanBeforePayment, remainingOustandingPrincipal);
     }
     
 }
