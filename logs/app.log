@@ -309,3 +309,851 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer fou
 2020-12-11 14:55:35,961 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-2] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
 2020-12-11 14:55:35,961 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-2] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
 2020-12-11 14:55:35,962 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-2] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:11:29,686 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 4918 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:11:29,706 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:11:29,712 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:11:32,104 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 3.28 seconds (JVM running for 6.383)
+2020-12-11 16:31:39,904 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 5119 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:31:39,921 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:31:39,922 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:31:41,628 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.493 seconds (JVM running for 4.101)
+2020-12-11 16:32:00,455 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5122 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:32:00,470 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:32:00,473 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:32:02,506 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.562 seconds (JVM running for 5.254)
+2020-12-11 16:32:03,258 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:32:03,261 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:32:03,264 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:32:03,264 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:32:03,265 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:37:28,228 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5164 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:37:28,239 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:37:28,241 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:37:30,283 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.497 seconds (JVM running for 4.99)
+2020-12-11 16:37:30,867 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:37:30,870 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:37:30,874 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:37:30,874 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:37:30,875 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:38:44,916 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5175 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:38:44,926 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:38:44,930 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:38:46,988 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.55 seconds (JVM running for 5.4)
+2020-12-11 16:38:47,601 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:38:47,604 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:38:47,605 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:38:47,606 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:38:47,607 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:48:03,742 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5246 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:48:03,773 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:48:03,777 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:48:05,802 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.5 seconds (JVM running for 5.309)
+2020-12-11 16:48:06,358 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:48:06,364 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:48:06,368 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:48:06,368 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:48:06,369 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:48:47,905 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5253 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:48:47,923 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:48:47,925 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:48:49,933 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.456 seconds (JVM running for 4.952)
+2020-12-11 16:48:50,521 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:48:50,526 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:48:50,528 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:48:50,528 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:48:50,529 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:49:42,469 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5261 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:49:42,498 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:49:42,502 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:49:44,537 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.452 seconds (JVM running for 5.086)
+2020-12-11 16:49:45,105 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:49:45,108 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:49:45,111 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:49:45,111 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:49:45,119 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:53:15,653 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5291 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:53:15,666 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:53:15,668 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:53:17,793 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.571 seconds (JVM running for 5.149)
+2020-12-11 16:53:18,365 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:53:18,372 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:53:18,375 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:53:18,375 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:53:18,376 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:54:48,724 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5303 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:54:48,739 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:54:48,748 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:54:50,826 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.533 seconds (JVM running for 5.169)
+2020-12-11 16:54:51,468 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:54:51,471 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:54:51,473 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:54:51,473 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:54:51,475 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:56:25,500 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5316 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:56:25,529 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:56:25,531 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:56:27,562 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.484 seconds (JVM running for 5.186)
+2020-12-11 16:56:28,139 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:56:28,143 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:56:28,149 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:56:28,149 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:56:28,150 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:57:42,890 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5333 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:57:42,911 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:57:42,914 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:57:44,984 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.648 seconds (JVM running for 5.36)
+2020-12-11 16:57:45,534 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:57:45,537 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:57:45,541 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:57:45,541 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:57:45,542 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:58:44,145 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5344 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:58:44,157 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:58:44,159 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:58:46,282 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.579 seconds (JVM running for 5.172)
+2020-12-11 16:58:46,865 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:58:46,870 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:58:46,873 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:58:46,875 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:58:46,876 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:59:29,215 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5354 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 16:59:29,232 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 16:59:29,235 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 16:59:31,163 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.362 seconds (JVM running for 4.971)
+2020-12-11 16:59:31,683 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 16:59:31,685 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 16:59:31,691 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 16:59:31,692 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 16:59:31,693 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:01:01,213 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5373 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:01:01,228 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:01:01,230 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:01:03,422 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.659 seconds (JVM running for 5.364)
+2020-12-11 17:01:04,045 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:01:04,049 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:01:04,052 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:01:04,052 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:01:04,053 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:10:13,112 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5437 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:10:13,122 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:10:13,124 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:10:15,320 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.674 seconds (JVM running for 5.287)
+2020-12-11 17:10:15,886 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:10:15,889 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:10:15,891 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:10:15,892 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:10:15,893 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:10:16,067 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:10:16,067 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:10:16,067 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:10:16,067 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:10:16,068 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:13:03,172 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5458 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:13:03,194 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:13:03,197 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:13:05,238 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.533 seconds (JVM running for 5.292)
+2020-12-11 17:13:05,807 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:13:05,810 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:13:05,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:13:05,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:13:05,815 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:13:05,973 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:13:05,974 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:13:05,974 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:13:05,974 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:13:05,975 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:14:08,845 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5470 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:14:08,856 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:14:08,858 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:14:10,917 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.555 seconds (JVM running for 5.164)
+2020-12-11 17:14:11,426 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:14:11,430 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:14:11,432 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:14:11,433 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:14:11,434 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:16:32,613 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5489 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:16:32,626 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:16:32,628 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:16:34,595 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.371 seconds (JVM running for 5.068)
+2020-12-11 17:16:35,196 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:16:35,200 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:16:35,203 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01+05:00   duration:2
+2020-12-11 17:16:35,203 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:16:35,204 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01+05:00
+2020-12-11 17:19:28,876 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5508 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:19:28,905 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:19:28,907 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:19:30,959 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.564 seconds (JVM running for 5.387)
+2020-12-11 17:19:31,526 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:19:31,530 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:19:31,532 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:2
+2020-12-11 17:19:31,533 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:19:31,534 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=6.01, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=2, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:05,134 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5512 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:20:05,149 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:20:05,151 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:20:07,220 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.549 seconds (JVM running for 5.226)
+2020-12-11 17:20:07,802 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:20:07,807 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:20:07,810 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 17:20:07,810 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,811 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,811 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,812 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,813 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,814 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,815 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:20:07,815 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:42,194 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5525 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:21:42,207 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:21:42,210 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:21:44,330 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.581 seconds (JVM running for 5.125)
+2020-12-11 17:21:44,932 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:21:44,935 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:21:44,938 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 17:21:44,938 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,939 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,939 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,940 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,940 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,940 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,940 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,940 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,941 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,941 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,941 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,941 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,941 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,941 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,942 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,942 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,943 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,943 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,943 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,943 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,944 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,944 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,944 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,944 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:21:44,944 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:29,367 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5559 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:26:29,387 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:26:29,390 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:26:31,393 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.425 seconds (JVM running for 5.097)
+2020-12-11 17:26:31,946 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:26:31,950 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:26:31,952 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 17:26:31,952 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,953 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,953 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,953 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,953 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,953 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,953 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,954 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,955 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,955 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,955 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,955 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,955 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,955 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,956 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,956 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,956 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,957 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:26:31,957 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:35,542 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5703 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:41:35,556 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:41:35,559 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:41:37,563 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.549 seconds (JVM running for 5.143)
+2020-12-11 17:41:38,191 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:41:38,198 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:41:38,201 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 17:41:38,201 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,202 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,203 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,203 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,203 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,203 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,204 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,204 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,204 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,204 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,204 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,205 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:41:38,206 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:26,878 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 5711 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 17:42:26,889 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 17:42:26,891 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 17:42:28,978 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.604 seconds (JVM running for 5.295)
+2020-12-11 17:42:29,565 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 17:42:29,570 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 17:42:29,573 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 17:42:29,573 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,575 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,575 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,575 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,575 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,576 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,576 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,576 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,576 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,576 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,576 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,577 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,578 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,578 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,578 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,578 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,578 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,579 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,579 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 17:42:29,579 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,581 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,581 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,582 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,582 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,582 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,583 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,583 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,584 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,584 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,584 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,585 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,585 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,586 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,586 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,586 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,587 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,587 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,588 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,588 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,588 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,592 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,593 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,597 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.3542
+2020-12-11 17:42:29,598 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round0.06859824
+2020-12-11 20:05:16,796 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 6615 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 20:05:16,811 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 20:05:16,813 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 20:05:18,800 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.392 seconds (JVM running for 5.04)
+2020-12-11 20:05:19,347 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:05:19,350 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:05:19,352 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:05:19,353 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,354 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,354 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,355 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,355 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,355 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,355 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,355 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,356 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,356 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,356 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,356 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,356 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,356 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,357 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,358 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,358 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,358 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:05:19,358 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,360 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,360 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,361 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,361 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,362 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,362 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,363 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,364 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,365 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,365 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,366 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,366 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,367 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,367 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,367 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,368 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,368 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,368 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,369 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,369 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,369 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,372 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:05:19,372 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:06:13,980 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 6623 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 20:06:13,998 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 20:06:14,000 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 20:06:16,145 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.81 seconds (JVM running for 5.381)
+2020-12-11 20:06:16,742 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:06:16,747 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:06:16,750 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:06:16,750 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,752 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,752 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,752 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,752 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,753 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,754 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,755 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,755 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,755 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,755 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:06:16,756 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,758 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,758 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,758 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,758 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,759 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,759 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,759 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,759 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,760 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,760 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,760 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,761 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,761 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,761 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,762 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,762 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,763 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,763 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,764 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,764 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,765 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,769 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:06:16,769 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:09:36,586 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 6649 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 20:09:36,598 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 20:09:36,599 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 20:09:38,568 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.537 seconds (JVM running for 4.461)
+2020-12-11 20:09:54,159 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] Debug level logger is active
+2020-12-11 20:09:54,167 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] startDate :1
+2020-12-11 20:09:54,170 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:09:54,170 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,171 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,171 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,171 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,171 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,176 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,176 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,176 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,177 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,178 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,179 DEBUG c.r.p.c.SimpleLoan [http-nio-8080-exec-1] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:09:54,179 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,180 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,180 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,181 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,181 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,181 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,181 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,182 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,182 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,182 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,183 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,183 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,183 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,184 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,184 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,184 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,184 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,185 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,185 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,185 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,186 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,186 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,186 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.36
+2020-12-11 20:09:54,186 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] borrowerpayment before round219.28282
+2020-12-11 20:11:32,449 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 6665 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 20:11:32,492 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 20:11:32,500 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 20:11:34,603 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.536 seconds (JVM running for 5.1)
+2020-12-11 20:11:35,149 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:11:35,153 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:11:35,155 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:11:35,160 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,161 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,162 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,162 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,162 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,162 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,162 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,162 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,163 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,163 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,163 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,163 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,163 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,163 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,164 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,164 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,164 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,164 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,164 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,165 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,165 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,165 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,165 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,165 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,165 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,167 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,168 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,168 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,168 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,169 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,169 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,170 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,170 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,171 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,171 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,172 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,172 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,173 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,174 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,174 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,175 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,175 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,176 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,181 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,181 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,182 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,182 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,183 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:11:35,463 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:11:35,463 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:11:35,467 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:11:35,487 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,487 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,488 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,490 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,492 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,492 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,493 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,493 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,494 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,498 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,499 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,499 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,499 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,500 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,500 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,500 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,500 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:11:35,500 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,500 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,501 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,501 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,501 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,502 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,502 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,502 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,503 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,503 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,503 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,504 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,504 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,504 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,507 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,507 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,508 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,509 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,513 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,513 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,514 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,517 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,517 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:11:35,517 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:13:54,405 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 6683 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 20:13:54,420 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 20:13:54,422 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 20:13:56,402 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.437 seconds (JVM running for 5.041)
+2020-12-11 20:13:57,025 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:13:57,031 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:13:57,032 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:13:57,033 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,034 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,034 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,034 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,035 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,035 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,035 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,035 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,036 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,036 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,036 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,036 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,036 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,037 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,038 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,038 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,039 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,040 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,040 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,041 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,041 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,043 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,043 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,045 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,046 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,046 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,047 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,048 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,049 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,050 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,051 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,052 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,054 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,054 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,055 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,055 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,055 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,058 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,058 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:13:57,318 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:13:57,319 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:13:57,319 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:13:57,319 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,319 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,319 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,320 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,321 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:13:57,322 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,323 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,323 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,324 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,324 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,324 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,324 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,325 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,325 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,325 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,326 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,326 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,326 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,326 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,327 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,330 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,330 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,331 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,333 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,333 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,334 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,334 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,334 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:13:57,335 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:15:31,809 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 6699 (started by rob in /Users/rob/git/plan-generator)
+2020-12-11 20:15:31,846 DEBUG c.r.p.c.PlanGeneratorControllerTest [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 20:15:31,854 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-11 20:15:34,342 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 2.971 seconds (JVM running for 5.571)
+2020-12-11 20:15:35,089 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:15:35,093 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:15:35,095 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:15:35,099 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,100 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,100 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,101 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,101 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,101 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,101 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,101 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,101 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,102 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,102 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,102 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,102 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,102 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,102 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,103 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,104 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,104 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,104 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,106 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,107 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,107 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,108 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,108 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,109 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,111 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,115 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,115 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,116 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,116 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,116 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,117 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,117 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,118 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,118 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,119 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,120 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,120 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,121 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,121 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,124 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,125 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282
+2020-12-11 20:15:35,508 DEBUG c.r.p.c.PlanGeneratorController [main] Debug level logger is active
+2020-12-11 20:15:35,508 DEBUG c.r.p.c.PlanGeneratorController [main] startDate :1
+2020-12-11 20:15:35,508 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan(...): startDate: 2018-01-01T00:00:01Z   duration:24
+2020-12-11 20:15:35,508 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,509 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,509 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,509 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,509 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,509 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,510 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,511 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,512 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,512 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,512 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,512 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,512 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,513 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,513 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,513 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,513 DEBUG c.r.p.c.SimpleLoan [main] SimpleLoan principal=5000.0, nominalInterestRate=5.0, interestRatePeriod=YEARLY, compoundingPeriod=MONTHLY, duration=24, startDate=2018-01-01T00:00:01Z
+2020-12-11 20:15:35,513 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,514 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,514 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,514 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,516 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,517 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,517 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,518 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,518 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,518 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,519 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,519 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,519 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,519 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,520 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,520 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,520 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,521 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,521 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,521 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,522 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,522 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,522 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.36
+2020-12-11 20:15:35,522 DEBUG c.r.p.c.PlanGeneratorController [main] borrowerpayment before round219.28282

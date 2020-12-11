@@ -1,5 +1,7 @@
 package com.robertnevitt.plangenerator.calculation;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 
@@ -62,25 +64,36 @@ public class SimpleLoan extends Loan {
     public ArrayList<SimpleLoanPayment> generateAllBorrowerPayments() {
         logger.debug(this.toString());
         ArrayList<SimpleLoanPayment> payments = new ArrayList<SimpleLoanPayment>();
-        float annuity = calculateAnnuity();
+        SimpleLoanPayment payment = calculateInitialPayment();
+        payments.add(calculateInitialPayment());
+        
+        //Generating all remaining months.
+        while (payment.remainingOustandingPrincipal > 0.01f) {
+            payment = generateBorrowerPayment(payment.borrowerPaymentAmount, payment);
+            payments.add(payment);
+        }
+              
+        return payments;
+    }
+    
+    //Because initial payment requires additional calculations I have created
+    //a separate method to  handle this.
+    private SimpleLoanPayment calculateInitialPayment() {
+        float annuity = roundCents(calculateAnnuity());
         float interestToBePaid = calculatInterestPayment(this, this.originalPrincipal);
         annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestToBePaid, this.originalPrincipal);
         float principalToBePaid = annuity - interestToBePaid;
         float remainingOutstandingPrincipal =  this.originalPrincipal - principalToBePaid;
 
         //Establishing first month payment. 
-        SimpleLoanPayment payment = SimpleLoanPayment.getLoanPayment(annuity, startDate, this.originalPrincipal, 
+        return SimpleLoanPayment.getLoanPayment(annuity, startDate, this.originalPrincipal, 
                 calculatInterestPayment(this, this.originalPrincipal), principalToBePaid, remainingOutstandingPrincipal);
-        payments.add(payment);
-        
-        //Generating all remaining months.
-        while (payment.remainingOustandingPrincipal > 0.01f) {
-            payment = generateBorrowerPayment(annuity, payment);
-            payments.add(payment);
-
-        }
-              
-        return payments;
+    }
+    
+    private float roundCents(float numberToBeRounded) {
+        DecimalFormat df = new DecimalFormat("#.##");
+        df.setRoundingMode(RoundingMode.CEILING);
+        return Float.valueOf(df.format(numberToBeRounded));
     }
     
     @Override

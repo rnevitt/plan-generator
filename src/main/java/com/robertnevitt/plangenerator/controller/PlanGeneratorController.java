@@ -1,5 +1,7 @@
 package com.robertnevitt.plangenerator.controller;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
@@ -36,11 +38,13 @@ public class PlanGeneratorController {
   
         return response;
     }
-    
+ 
     private BorrowerPayment[] convertSimpleLoanPaymentsToBorrowerPayments(ArrayList<SimpleLoanPayment> simpleLoanPayments) {
         ArrayList<BorrowerPayment> borrowerPayments = new ArrayList<BorrowerPayment>();
         for(SimpleLoanPayment payment : simpleLoanPayments) {
-            String borrowerPaymentAmount = String.format("%.2f", payment.borrowerPaymentAmount);
+           // String borrowerPaymentAmount = String.format("%.2f", payment.borrowerPaymentAmount);
+            logger.debug("borrowerpayment before round" + payment.borrowerPaymentAmount );
+            String borrowerPaymentAmount = String.format("%.2f",payment.borrowerPaymentAmount);
             String date = payment.date.toString();
             String initialOutstandingPrincipal = String.format("%.2f",payment.initialOutstandingPrincipal);
             String interest = String.format("%.2f",payment.interestPaid);
@@ -52,5 +56,12 @@ public class PlanGeneratorController {
         }
         
         return borrowerPayments.toArray(new BorrowerPayment[borrowerPayments.size()]);
+    }
+    
+    //TODO: move to SimpleLoan
+    private String roundCents(float numberToBeRounded) {
+        DecimalFormat df = new DecimalFormat("#.##");
+        df.setRoundingMode(RoundingMode.CEILING);
+        return df.format(numberToBeRounded);
     }
 }
