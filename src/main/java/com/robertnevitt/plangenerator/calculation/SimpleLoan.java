@@ -66,7 +66,7 @@ public class SimpleLoan extends Loan {
         while (payment.remainingOustandingPrincipal > 0.01f) {
             payment = generateBorrowerPayment(annuity, payment);
             payments.add(payment);
-            System.out.println(payment.toString());
+
         }
               
         return payments;

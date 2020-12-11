@@ -1,0 +1,41 @@
+2020-12-11 11:29:33,995 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 2554 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 11:29:34,010 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 11:29:34,010 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 11:29:35,496 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.212 seconds (JVM running for 4.44)
+2020-12-11 11:30:32,096 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-2] logger is active
+2020-12-11 11:34:47,704 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 2596 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 11:34:47,715 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 11:34:47,716 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 11:34:49,330 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.241 seconds (JVM running for 4.358)
+2020-12-11 11:34:49,333 INFO c.r.p.PlangeneratorApplication [main] PlanGeneratorApplication has completed launching.
+2020-12-11 12:06:23,336 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 2932 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 12:06:23,359 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 12:06:23,361 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 12:06:25,853 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 3.208 seconds (JVM running for 5.29)
+2020-12-11 12:06:43,482 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 2935 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 12:06:43,495 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 12:06:43,496 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 12:06:45,323 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.389 seconds (JVM running for 4.744)
+2020-12-11 12:06:56,939 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-5] Debug level logger is active
+2020-12-11 12:12:04,473 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 2983 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 12:12:04,488 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 12:12:04,489 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 12:12:06,918 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 3.574 seconds (JVM running for 6.641)
+2020-12-11 12:28:54,913 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 3126 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 12:28:54,923 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 12:28:54,924 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 12:28:57,263 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 3.157 seconds (JVM running for 5.175)
+2020-12-11 12:30:15,187 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-5] Debug level logger is active
+2020-12-11 12:30:53,982 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-9] Debug level logger is active
+2020-12-11 12:32:37,221 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 3165 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 12:32:37,239 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 12:32:37,240 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 12:32:39,127 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.512 seconds (JVM running for 4.394)
+2020-12-11 12:39:30,148 INFO c.r.p.PlangeneratorApplication [main] Starting PlangeneratorApplication using Java 1.8.0_45 on RMBP-2.local with PID 3225 (/Users/rob/git/plan-generator/target/classes started by rob in /Users/rob/git/plan-generator)
+2020-12-11 12:39:30,182 DEBUG c.r.p.PlangeneratorApplication [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-11 12:39:30,182 INFO c.r.p.PlangeneratorApplication [main] No active profile set, falling back to default profiles: default
+2020-12-11 12:39:31,715 INFO c.r.p.PlangeneratorApplication [main] Started PlangeneratorApplication in 2.037 seconds (JVM running for 4.055)
+2020-12-11 12:39:32,685 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-1] Debug level logger is active
+2020-12-11 12:39:43,051 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-3] Debug level logger is active
+2020-12-11 12:39:52,351 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-4] Debug level logger is active
+2020-12-11 12:39:58,250 DEBUG c.r.p.c.PlanGeneratorController [http-nio-8080-exec-5] Debug level logger is active
