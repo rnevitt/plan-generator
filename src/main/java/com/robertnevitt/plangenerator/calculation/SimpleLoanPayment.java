@@ -1,16 +1,16 @@
 package com.robertnevitt.plangenerator.calculation;
 
-import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 public class SimpleLoanPayment {
     public final float borrowerPaymentAmount;
-    public final LocalDateTime date;
+    public final ZonedDateTime date;
     public final float initialOutstandingPrincipal;
     public final float interestPaid;
     public final float principalPaid;
     public final float remainingOustandingPrincipal;
     
-    private SimpleLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
+    private SimpleLoanPayment(float borrowerPaymentAmount, ZonedDateTime date,
             float initialOutstandingPrincipal, float interestPaid, float principalPaid,
             float remainingOustandingPrincipal) {
         this.borrowerPaymentAmount = borrowerPaymentAmount;
@@ -21,7 +21,7 @@ public class SimpleLoanPayment {
         this.remainingOustandingPrincipal = remainingOustandingPrincipal;
     }
     
-    public static SimpleLoanPayment getLoanPayment(float borrowerPaymentAmount, LocalDateTime date,
+    public static SimpleLoanPayment getLoanPayment(float borrowerPaymentAmount, ZonedDateTime date,
             float initialOutstandingPrincipal,float interestPaid, float principalPaid,
             float remainingOustandingPrincipal) {
         return new SimpleLoanPayment( borrowerPaymentAmount, date, initialOutstandingPrincipal, interestPaid,

@@ -12,6 +12,32 @@ public class BorrowerPayment {
     private final String interest;
     private final String principal;
     private final String remainingOutstandingPrincipal;
+    
+    
+
+    public String getBorrowerPaymentAmount() {
+        return borrowerPaymentAmount;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public String getInitialOutstandingPrincipal() {
+        return initialOutstandingPrincipal;
+    }
+
+    public String getInterest() {
+        return interest;
+    }
+
+    public String getPrincipal() {
+        return principal;
+    }
+
+    public String getRemainingOutstandingPrincipal() {
+        return remainingOutstandingPrincipal;
+    }
 
     public static class Builder {
         //required parameters

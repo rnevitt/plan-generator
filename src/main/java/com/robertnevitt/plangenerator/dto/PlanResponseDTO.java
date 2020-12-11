@@ -1,11 +1,13 @@
 package com.robertnevitt.plangenerator.dto;
 
-import java.util.ArrayList;
-
 public class PlanResponseDTO {
-	private ArrayList<BorrowerPayment> borrowerPayments;
+	private final BorrowerPayment[] borrowerPayments;
 	
-	public ArrayList<BorrowerPayment> getBorrowerPayments() {
+	public PlanResponseDTO(BorrowerPayment[] payments) {
+	     this.borrowerPayments = payments;
+    }
+
+    public BorrowerPayment[] getBorrowerPayments() {
         return borrowerPayments;
     }
 
