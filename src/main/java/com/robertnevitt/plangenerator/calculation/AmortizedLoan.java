@@ -31,6 +31,11 @@ public class AmortizedLoan extends Loan {
                 compoundingPeriod, duration, startDate);      
     }
     
+    /**
+     * Calculate the payment that should be made in order to pay off an amortized loan. 
+     * 
+     * @return float
+     */
     protected float calculateAnnuity() {
         float ratePerPeriod = calculateRatePerPeriod();
         return (ratePerPeriod*this.originalPrincipal)/(1-(float)Math.pow(1+ratePerPeriod,(0f-this.duration)));
@@ -52,8 +57,15 @@ public class AmortizedLoan extends Loan {
         }
     }
     
+    /**
+     * Generates a single payment based on the prior payments information.
+     * 
+     * @param annuity float
+     * @param priorPayment AmortizedLoanPayment
+     * @return AmortizedLoanPayment
+     */
     protected AmortizedLoanPayment generateBorrowerPayment(float annuity, AmortizedLoanPayment priorPayment) {
-        float interestPaid = calculatInterestPayment(this, priorPayment.remainingOutstandingPrincipal);
+        float interestPaid = calculateInterestPayment(this, priorPayment.remainingOutstandingPrincipal);
         annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestPaid,
                 priorPayment.remainingOutstandingPrincipal);
         float principalPaid = annuity - interestPaid;
@@ -89,14 +101,14 @@ public class AmortizedLoan extends Loan {
      */
     protected AmortizedLoanPayment calculateInitialPayment() {
         float annuity = roundCents(calculateAnnuity());
-        float interestToBePaid = calculatInterestPayment(this, this.originalPrincipal);
+        float interestToBePaid = calculateInterestPayment(this, this.originalPrincipal);
         annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestToBePaid, this.originalPrincipal);
         float principalToBePaid = annuity - interestToBePaid;
         float remainingOutstandingPrincipal =  this.originalPrincipal - principalToBePaid;
 
         //Establishing first month payment. 
         return AmortizedLoanPayment.getLoanPayment(annuity, startDate, this.originalPrincipal, 
-                calculatInterestPayment(this, this.originalPrincipal), principalToBePaid, remainingOutstandingPrincipal);
+                calculateInterestPayment(this, this.originalPrincipal), principalToBePaid, remainingOutstandingPrincipal);
     }
     
     /**

@@ -29,7 +29,7 @@ public abstract class Loan {
         return ((this.nominalInterestRate/100f)/(this.interestRatePeriod.numberOfDays/this.compoundingPeriod.numberOfDays));
     }
     
-    public static float calculatInterestPayment(Loan loan, float currentPrincipal) {
+    public static float calculateInterestPayment(Loan loan, float currentPrincipal) {
         return (((loan.nominalInterestRate/100) * loan.compoundingPeriod.numberOfDays * currentPrincipal)
                 / loan.interestRatePeriod.numberOfDays);
     }

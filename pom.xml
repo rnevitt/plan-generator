@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.robertnevitt</groupId>
 	<artifactId>plangenerator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>plangenerator</name>
 	<description>Make a payment plan for a loan.</description>
 
