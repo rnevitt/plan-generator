@@ -36,6 +36,14 @@ public class AmortizedLoan extends Loan {
         return (ratePerPeriod*this.originalPrincipal)/(1-(float)Math.pow(1+ratePerPeriod,(0f-this.duration)));
     }
     
+    /**
+     * Checks to make sure a payment does not exceed the remaining principle + interest
+     * 
+     * @param annuity amount to be paid from initial amortization
+     * @param interestToBePaid amount of interest to be paid
+     * @param remainingPrincipal amount of remaining principal to be paid
+     * @return
+     */
     protected float checkAndAdjustAnnuityForOverpayment(float annuity, float interestToBePaid, float remainingPrincipal) {
         if (annuity > (remainingPrincipal + interestToBePaid)) {
             return remainingPrincipal + interestToBePaid;
@@ -46,7 +54,8 @@ public class AmortizedLoan extends Loan {
     
     protected AmortizedLoanPayment generateBorrowerPayment(float annuity, AmortizedLoanPayment priorPayment) {
         float interestPaid = calculatInterestPayment(this, priorPayment.remainingOutstandingPrincipal);
-        annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestPaid, priorPayment.remainingOutstandingPrincipal);
+        annuity = checkAndAdjustAnnuityForOverpayment(annuity, interestPaid,
+                priorPayment.remainingOutstandingPrincipal);
         float principalPaid = annuity - interestPaid;
         ZonedDateTime paymentDate = priorPayment.datePaymentToBeMade.plusMonths(1);
         float originalPrincipal = priorPayment.remainingOutstandingPrincipal;
@@ -71,8 +80,13 @@ public class AmortizedLoan extends Loan {
         return payments;
     }
     
-    //Because initial payment requires additional calculations I have created
-    //a separate method to  handle this.
+
+    /**
+     * An initial payment requires additional calculations so I have created
+     * a separate method to  handle this.
+     * 
+     * @return AmortizedLoanPayment the first payment in a loan payback scheme.
+     */
     protected AmortizedLoanPayment calculateInitialPayment() {
         float annuity = roundCents(calculateAnnuity());
         float interestToBePaid = calculatInterestPayment(this, this.originalPrincipal);
@@ -85,7 +99,15 @@ public class AmortizedLoan extends Loan {
                 calculatInterestPayment(this, this.originalPrincipal), principalToBePaid, remainingOutstandingPrincipal);
     }
     
-    protected float roundCents(float numberToBeRounded) {
+    /**
+     * Method to round to the ceiling to make payable in currency which use partial
+     * units. Ceiling is used to make sure payer is paying enough to meet loan terms
+     * without defaulting by a fraction of a cent.
+     * 
+     * @param numberToBeRounded
+     * @return float rounded to two decimals points.
+     */
+    protected static float roundCents(float numberToBeRounded) {
         DecimalFormat df = new DecimalFormat("#.##");
         df.setRoundingMode(RoundingMode.CEILING);
         return Float.valueOf(df.format(numberToBeRounded));
@@ -98,8 +120,5 @@ public class AmortizedLoan extends Loan {
                 +", compoundingPeriod="+compoundingPeriod
                 +", duration="+duration+", startDate="+startDate);
     }
-    
-    
-    
 
 }
