@@ -9,6 +9,9 @@ The Loan Payment Plan Generator creates a plan based on four inputs:
 * duration in months
 * first payment date
 
+Starting The Service
+----------------
+
 To run the application from command line:
 > ./mvnw spring-boot:run
 
@@ -17,6 +20,9 @@ To run tests:
 
 Once the app is running you send a POST request with a JSON body to:
 > /plan-generator
+
+Request Format
+--------------
 
 Sample JSON request body:
 
@@ -28,6 +34,14 @@ Sample JSON request body:
 	"startDate": "2018-01-01T00:00:01Z"
 }
 ```
+
+* loanAmount is a required field, should not contain denomination symbols.
+* nominalRate is a required field and should not contain a percentage symbol.
+* duration is a required field and should not contain a decimal point.
+* startDate is a required field and must be in the force yyyy-mm-ddThh:mm:ssZ or yyyy-mm-ddThh-mm:ss+00:00.
+
+Response Format
+---------------
 
 Sample JSON response body:
 
@@ -62,3 +76,12 @@ Sample JSON response body:
     ]
 }
 ```
+
+The response is an array named borrowerPayments each entry in the array contains the following fields:
+* borrowerPaymentAmount: the amount the borrower will pay.
+* date: date payment will be made.
+* initialOutstandingPrincipal: principal before payment.
+* remainingOustandingPrincipal: what the principal will be after payment.
+* interest: the portion of the payment that will go to interest.
+* principal: the portion of the payment that will be applied to the initialOustandPrincipal.
+* remainingOutstandingPrincipal: the principal remaining after the payment has been made.
