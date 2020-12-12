@@ -22,6 +22,6 @@ public class LoanTest {
     @Test
     public void calculateInterestPaymentTest() {
         float objectUnderTest = Loan.calculateInterestPayment(loan, 5000.00f);
-        assertEquals(20.833334, objectUnderTest);
+        assertEquals("20.83",String.format("%.2f",objectUnderTest));
     }
 }

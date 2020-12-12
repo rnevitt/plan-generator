@@ -10,3 +10,27 @@
 2020-12-12 14:42:16,106 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 10241 (started by rob in /Users/rob/git/plan-generator)
 2020-12-12 14:42:16,109 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
 2020-12-12 14:42:16,913 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 0.847 seconds (JVM running for 11.079)
+2020-12-12 14:44:07,403 INFO c.r.p.d.BorrowerPaymentTest [main] Starting BorrowerPaymentTest using Java 1.8.0_45 on RMBP-2.local with PID 10270 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:44:07,434 INFO c.r.p.d.BorrowerPaymentTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:44:11,506 INFO c.r.p.d.BorrowerPaymentTest [main] Started BorrowerPaymentTest in 5.266 seconds (JVM running for 11.74)
+2020-12-12 14:44:12,038 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 10270 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:44:12,041 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:44:12,973 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 0.975 seconds (JVM running for 13.207)
+2020-12-12 14:45:19,301 INFO c.r.p.d.BorrowerPaymentTest [main] Starting BorrowerPaymentTest using Java 1.8.0_45 on RMBP-2.local with PID 10282 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:45:19,332 INFO c.r.p.d.BorrowerPaymentTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:45:22,381 INFO c.r.p.d.BorrowerPaymentTest [main] Started BorrowerPaymentTest in 3.715 seconds (JVM running for 8.785)
+2020-12-12 14:45:23,017 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 10282 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:45:23,021 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:45:23,861 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 0.89 seconds (JVM running for 10.265)
+2020-12-12 14:46:56,563 INFO c.r.p.d.BorrowerPaymentTest [main] Starting BorrowerPaymentTest using Java 1.8.0_45 on RMBP-2.local with PID 10300 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:46:56,594 INFO c.r.p.d.BorrowerPaymentTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:47:00,559 INFO c.r.p.d.BorrowerPaymentTest [main] Started BorrowerPaymentTest in 4.774 seconds (JVM running for 12.123)
+2020-12-12 14:47:01,408 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 10300 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:47:01,417 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:47:02,548 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 1.21 seconds (JVM running for 14.112)
+2020-12-12 14:47:47,317 INFO c.r.p.d.BorrowerPaymentTest [main] Starting BorrowerPaymentTest using Java 1.8.0_45 on RMBP-2.local with PID 10308 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:47:47,362 INFO c.r.p.d.BorrowerPaymentTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:47:50,580 INFO c.r.p.d.BorrowerPaymentTest [main] Started BorrowerPaymentTest in 3.976 seconds (JVM running for 9.596)
+2020-12-12 14:47:51,156 INFO c.r.p.c.PlanGeneratorControllerTest [main] Starting PlanGeneratorControllerTest using Java 1.8.0_45 on RMBP-2.local with PID 10308 (started by rob in /Users/rob/git/plan-generator)
+2020-12-12 14:47:51,163 INFO c.r.p.c.PlanGeneratorControllerTest [main] No active profile set, falling back to default profiles: default
+2020-12-12 14:47:52,045 INFO c.r.p.c.PlanGeneratorControllerTest [main] Started PlanGeneratorControllerTest in 0.927 seconds (JVM running for 11.06)
