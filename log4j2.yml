@@ -23,7 +23,7 @@ Configuration:
   Loggers:
     logger:
       - name: com.robertnevitt
-        level: debug
+        level: info
         additivity: false
         AppenderRef:
           - ref: LogToConsole

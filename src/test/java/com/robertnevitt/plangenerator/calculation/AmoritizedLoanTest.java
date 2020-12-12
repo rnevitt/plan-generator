@@ -55,8 +55,7 @@ public class AmoritizedLoanTest {
         assertEquals("4801.47", String.format("%.2f",payment.initialOutstandingPrincipal));
         assertEquals("20.01", String.format("%.2f",payment.interestToBePaid));
         assertEquals("199.35", String.format("%.2f",payment.principalToBePaid));
-        assertEquals("4602.13", String.format("%.2f",payment.remainingOutstandingPrincipal));
-         
+        assertEquals("4602.13", String.format("%.2f",payment.remainingOutstandingPrincipal));        
     }
     
     @Test
@@ -68,7 +67,6 @@ public class AmoritizedLoanTest {
     @Test
     public void checkAndAdustAnnityForOverpayment() {
         float annuityReduced = loan.checkAndAdjustAnnuityForOverpayment(500f, 100f, 300f);
-        assertEquals(400f,AmortizedLoan.roundCents(annuityReduced));
-        
+        assertEquals(400f,AmortizedLoan.roundCents(annuityReduced));      
     }
 }
