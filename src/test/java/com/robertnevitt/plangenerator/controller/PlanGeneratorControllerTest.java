@@ -27,18 +27,19 @@ class PlanGeneratorControllerTest {
             + "    \"startDate\": \"2018-01-01T00:00:01+05:00\"\n"
             + "}");
     
+    private static final String GENERATE_PLAN_PATH = "/generate-plan";
     @Autowired
     private MockMvc mockMvc;
     
     @Test
     public void newPaymentPlanNoBodyTest() throws Exception {
-        this.mockMvc.perform(post("/plans")).andExpect(status().isBadRequest());
+        this.mockMvc.perform(post("/generate-plan")).andExpect(status().isBadRequest());
     }
 
     @Test
     public void newPaymentPlanTest() throws Exception {
       
-        this.mockMvc.perform(post("/plans").contentType(MediaType.APPLICATION_JSON).content(JSON_BODY_REQUEST_CORRECT))
+        this.mockMvc.perform(post(GENERATE_PLAN_PATH).contentType(MediaType.APPLICATION_JSON).content(JSON_BODY_REQUEST_CORRECT))
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.borrowerPayments").isArray())
             .andExpect(jsonPath("$.borrowerPayments[0].borrowerPaymentAmount").isString())
@@ -58,7 +59,7 @@ class PlanGeneratorControllerTest {
     @Test
     public void newPaymentPlanFinalPaymentTest() throws Exception {
       
-        this.mockMvc.perform(post("/plans").contentType(MediaType.APPLICATION_JSON).content(JSON_BODY_REQUEST_CORRECT))
+        this.mockMvc.perform(post(GENERATE_PLAN_PATH).contentType(MediaType.APPLICATION_JSON).content(JSON_BODY_REQUEST_CORRECT))
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.borrowerPayments").isArray())
             .andExpect(jsonPath("$.borrowerPayments[23].borrowerPaymentAmount").isString())
@@ -79,7 +80,7 @@ class PlanGeneratorControllerTest {
     @Test
     public void newPaymentPlanMalformedRequestTest() throws Exception {
       
-        this.mockMvc.perform(post("/plans").contentType(MediaType.APPLICATION_JSON).content(JSON_BODY_REQUEST_MALFORMED))
+        this.mockMvc.perform(post(GENERATE_PLAN_PATH).contentType(MediaType.APPLICATION_JSON).content(JSON_BODY_REQUEST_MALFORMED))
             .andExpect(status().isBadRequest());
     }
     

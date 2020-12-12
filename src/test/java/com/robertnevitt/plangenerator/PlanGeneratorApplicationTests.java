@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.robertnevitt.plangenerator.controller.PlanGeneratorController;
 
 @SpringBootTest
-class PlangeneratorApplicationTests {
+class PlanGeneratorApplicationTests {
     @Autowired
     private PlanGeneratorController planGeneratorController;
     
